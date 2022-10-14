@@ -1,8 +1,11 @@
+import sys
+
+sys.path.append("/home/luisb/Documentos/GitHub/ia_2022")
+
 from aspirador import agent, joc
 
-
 def main():
-    aspirador = agent.AspiradorTaula()
+    aspirador = agent.AspiradorMemoria()
     hab = joc.Casa([aspirador])
     hab.comencar()
 

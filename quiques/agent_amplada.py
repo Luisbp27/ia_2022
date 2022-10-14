@@ -10,7 +10,20 @@ class BarcaAmplada(Barca):
         self.__tancats = None
         self.__accions = None
 
-    def actua(
-        self, percep: entorn.Percepcio
-    ) -> entorn.Accio | tuple[entorn.Accio, object]:
-        pass
+    def actua(self, percep: entorn.Percepcio) -> entorn.Accio | tuple[entorn.Accio, object]:
+        obert = [Estat(percep)]
+        tancat = ()
+
+        while obert != tancat:
+            x = obert.pop()      
+
+            if x.es_meta:
+
+                break 
+            else:
+                successor = x.genera_fill
+                obert.append(successor)
+                tancat = tancat + successor
+
+
+
