@@ -1,4 +1,4 @@
-""" Fitxer amb tota la informació de l'entorn de l'aspirador.
+""" Fitxer amb tota la informació de l'entorn de les monedes.
 
 Autor: Miquel Miró Nicolau (UIB), 2022
 """

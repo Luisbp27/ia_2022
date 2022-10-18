@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("/home/luisb/Documentos/GitHub/ia_2022")
+
 from quiques import agent_amplada, agent_profunditat, joc
 
 

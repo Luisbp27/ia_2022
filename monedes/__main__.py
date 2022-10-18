@@ -1,5 +1,8 @@
-from monedes import agent, joc
+import sys
 
+sys.path.append("/home/luisb/Documentos/GitHub/ia_2022")
+
+from monedes import agent, joc
 
 def main():
     ag_mon = agent.AgentMoneda()
